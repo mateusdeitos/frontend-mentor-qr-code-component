@@ -53,8 +53,6 @@ html {
 body {
 	margin: 0;
 	height: 100vh;
-	display: flex;
-	flex-direction: column;
 	background-color: var(--color-light-gray);
 }
 
@@ -104,6 +102,10 @@ main section.card-container .card-footer>p {
 	color: var(--color-grayish-blue);
 	font-size: calc(var(--font-size) * 1);
 	text-align: center;
+}
+
+body .attribution {
+	margin-bottom: 16px;
 }
 
 .flex-col {
